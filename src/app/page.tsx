@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -41,12 +41,11 @@ export default function Home() {
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <BigNumberTokenomics
           title="Tokenomics"
-          description="Understanding our token distribution, usage, and value.
-           Our tokenomics ensure sustainable growth and real value for users."
+          description="Understanding our token distribution, usage, and value. Our tokenomics ensure sustainable growth and real value for users."
           kpiItems={[
-            { value: "100M", description: "Total Supply", longDescription: "Total tokens in circulation.", icon: LucideIcon },
-            { value: "30%", description: "Liquidity", longDescription: "Tokens reserved for liquidity pools.", icon: LucideIcon },
-            { value: "20%", description: "Team", longDescription: "Tokens allocated to the team for development and support.", icon: LucideIcon },
+            { value: "100M", description: "Total Supply", longDescription: "Total tokens in circulation." },
+            { value: "30%", description: "Liquidity", longDescription: "Tokens reserved for liquidity pools." },
+            { value: "20%", description: "Team", longDescription: "Tokens allocated to the team for development and support." },
           ]}
         />
       </div>
